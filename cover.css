@@ -15,18 +15,15 @@
  */
 
 body {
-  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
   color: #4F433D !important;
-}
-
-.cover-container {
-  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
-  max-width: 42em;
-  clip-path: inset(0px 100vw 0px 100vw);
+  background: url(img/waves.svg) no-repeat;
+  background-size: 50vw auto;
 }
 
 .cover-bg {
-  background: #bbb3df radial-gradient(circle, rgba(0,0,0,0) 50%, rgba(0,0,0,0.3) 100%) fixed;
+  background: radial-gradient(#bbb3df, #a49dc0);
+  clip-path: polygon(100% 0%, 100% 90%, 50% 100%, 0 90%, 0 0);
+  box-shadow: 1px 1px 10px #bbb3df;
 }
 
 .header-container {
@@ -40,7 +37,6 @@ body {
   max-height: 40vh;
   margin-bottom: 3em;
 }
-
 
 /*
  * Header
@@ -67,6 +63,14 @@ body {
 .nav-masthead .active {
   color: #fff;
   border-bottom-color: #fff;
+}
+
+.fixed-top {
+  transition: background-color 200ms linear;
+}
+.fixed-top.scrolled {
+  background-color: #bbb3df !important;
+  transition: background-color 200ms linear;
 }
 
 /*
