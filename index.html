@@ -21,24 +21,22 @@
       </symbol>
     </svg>
 
-<header class="d-flex h-100 cover-bg">
-  <div class="cover-container w-100 h-100 vstack mx-auto">
-    <nav class="fixed-top container p-3">
-        <h3 class="float-md-start praxo-io">IBEN</h3>
-        <div class="nav nav-masthead justify-content-center float-md-end">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-          <a class="nav-link" href="#">Conheça o tarô</a>
-          <a class="nav-link" href="#valores">Serviços</a>
-          <a class="nav-link" href="#">Contato</a>
-        </div>
-    </nav>
+    <nav id="mainNav" class="fixed-top p-3"><div class="container">
+      <h3 class="float-md-start praxo-io">IBEN</h3>
+      <div class="nav nav-masthead justify-content-center float-md-end">
+        <a class="nav-link active" aria-current="page" href="#">Home</a>
+        <a class="nav-link" href="#">Conheça o tarô</a>
+        <a class="nav-link" href="#valores">Serviços</a>
+        <a class="nav-link" href="#">Contato</a>
+      </div>
+    </div></nav>
 
+<header class="d-flex h-100 cover-bg">
     <div class="mx-auto mt-auto mb-auto header-container">
       <img class="header-img" src="img/logo.png">
       <h1 class="invisible">Iben Tarot</h1>
       <a href="#" class="btn btn-lg btn-outline-light fw-bold mt-5">Saiba mais</a>
     </div>
-  </div>
 </header>
 
 <section id="valores" class="container">
@@ -158,7 +156,19 @@
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-<script type="text/javascript" src="card-picker.js"></script>
+<!--script type="text/javascript" src="card-picker.js"></script-->
+<script>
+var myNav = document.getElementById('mainNav');
+window.onscroll = function () { 
+    "use strict";
+    if (window.pageYOffset > 300 ) {
+        myNav.classList.add("scrolled");
+    } 
+    else {
+        myNav.classList.remove("scrolled");
+    }
+};
+</script>
     
   </body>
 </html>
