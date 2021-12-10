@@ -80,3 +80,33 @@ body {
 .pricing-header {
   max-width: 700px;
 }
+
+/*
+ * Contact
+ */
+
+#contato {
+  background: url('img/contato.jpg');
+  background-size: cover;
+  position: relative;
+  clip-path: polygon(42% 0, 66% 4%, 73% 18%, 92% 9%, 100% 24%, 100% 100%, 0 100%, 0 18%, 9% 8%, 29% 12%);
+}
+#contato::before{
+  content: "";
+  position: absolute;
+  left: 0; right: 0;
+  top: 0; bottom: 0;
+  background: #bbb3df78;
+}
+
+#contato .container {
+  z-index: 1;
+  position: relative;
+  padding: 7em 0 3em 0;
+}
+
+@media screen and (width >= 768px) {
+  .contato-heading {
+    transform: rotate(-90deg) translate(-50%, 100%);
+  }
+}
