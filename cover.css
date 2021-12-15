@@ -81,12 +81,39 @@ body {
 }
 
 .blob-image {
-  background: linear-gradient(45deg, #ded69b, #de8171);
+  background: linear-gradient(45deg, #bbb3df, #de8171);
   border-radius: 35% 85% 69% 51% / 39% 54% 58% 79%;
   max-height: 40vh;
 }
 .blob-image img {
   max-height: 40vh;
+}
+
+#eu {
+  background-image: url("img/profile-back.jpg");
+  position: relative;
+}
+#eu::before {
+  content: " ";
+  position: absolute;
+  left: 0; right: 0;
+  top: 0; bottom: 0;
+  background: #4f433de5;
+}
+
+.profile-img {
+  transform: rotateZ(-7deg);
+  position: relative;
+}
+.profile-img::before {
+  content: " ";
+  position: absolute;
+  left: 0; right: 0;
+  top: 0; bottom: 0;
+  background: #EAF5F4;
+  transform: rotateZ(-3deg);
+  z-index: -1;
+  border-radius: 1em;
 }
 
 /*
