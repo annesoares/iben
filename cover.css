@@ -17,12 +17,12 @@
 body {
   color: #4F433D !important;
   background: url(img/waves.svg) no-repeat;
-  background-size: 50vw auto;
+  background-size: cover;
 }
 
 .cover-bg {
   background: radial-gradient(#bbb3df, #a49dc0);
-  clip-path: polygon(100% 0%, 100% 90%, 50% 100%, 0 90%, 0 0);
+  clip-path: polygon(100% 0%, 100% 90vh, 50% 100%, 0 90vh, 0 0);
   box-shadow: 1px 1px 10px #bbb3df;
 }
 
@@ -73,9 +73,41 @@ body {
   transition: background-color 200ms linear;
 }
 
+
+
+#tarot {
+  margin-top: -10vh;
+  padding-top: 12vh;
+}
+
+.blob-image {
+  background: linear-gradient(45deg, #ded69b, #de8171);
+  border-radius: 35% 85% 69% 51% / 39% 54% 58% 79%;
+  max-height: 40vh;
+}
+.blob-image img {
+  max-height: 40vh;
+}
+
 /*
  * Pricing
  */
+
+#valores {
+  margin-bottom: -10vh;
+  padding-bottom: 10vh;
+  background-color: #EAF5F4;
+  position: relative;
+}
+#valores::before {
+  content: " ";
+  position: absolute;
+  left: 0; right: 0;
+  top: 0; bottom: 0;
+  background: url("img/pattern.png");
+  background-size: cover;
+  clip-path:  circle(50% at 100% 50%);
+}
 
 .pricing-header {
   max-width: 700px;
@@ -89,8 +121,6 @@ body {
   background-size: cover;
   background-attachment: fixed;
   background-blend-mode: overlay;
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
   position: relative;
   transform: skewY(2deg);
 }
@@ -121,16 +151,18 @@ body {
   position: absolute;
   left: 0; right: 0;
   top: 0; bottom: 0;
-  background: #bbb3df78;
+  background: linear-gradient(#3f3c4b78 -51%, #bbb3df78);
 }
-
+.contato-sombra {
+  filter: drop-shadow(0 -5px 30px rgba(0, 0, 0, 0.5));
+}
 #contato .container {
   z-index: 1;
   position: relative;
   padding: 7em 0 3em 0;
 }
 
-@media screen and (width >= 768px) {
+@media screen and (min-width: 768px) {
   .contato-heading {
     transform: rotate(-90deg) translate(-50%, 100%);
   }
