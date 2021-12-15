@@ -80,6 +80,31 @@ body {
 .pricing-header {
   max-width: 700px;
 }
+/*
+ * Card game
+ */
+
+#jogo {
+  background: url("img/jogo.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-blend-mode: overlay;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  position: relative;
+  transform: skewY(2deg);
+}
+#jogo::before{
+  content: "";
+  position: absolute;
+  left: 0; right: 0;
+  top: 0; bottom: 0;
+  background: #de8171a2;
+}
+
+#jogo .container{
+  transform: skewY(-2deg);
+}
 
 /*
  * Contact
