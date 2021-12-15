@@ -1,0 +1,470 @@
+[
+  {
+    "no": "00",
+    "name" : "O Louco",
+    "src": "img/deck/00.svg",
+    "text": ""
+  },
+  {
+    "no": "01",
+    "name" : "O Mago",
+    "src": "img/deck/01.svg",
+    "text": ""
+  },
+  {
+    "no": "02",
+    "name" : "A Sacerdotisa",
+    "src": "img/deck/02.svg",
+    "text": ""
+  },
+  {
+    "no": "03",
+    "name" : "A Imperatriz",
+    "src": "img/deck/03.svg",
+    "text": ""
+  },
+  {
+    "no": "04",
+    "name" : "O Imperador",
+    "src": "img/deck/04.svg",
+    "text": ""
+  },
+  {
+    "no": "05",
+    "name" : "O Hierofante",
+    "src": "img/deck/05.svg",
+    "text": ""
+  },
+  {
+    "no": "06",
+    "name" : "Os Amantes",
+    "src": "img/deck/06.svg",
+    "text": ""
+  },
+  {
+    "no": "07",
+    "name" : "O Carro",
+    "src": "img/deck/07.svg",
+    "text": ""
+  },
+  {
+    "no": "08",
+    "name" : "A Força",
+    "src": "img/deck/08.svg",
+    "text": ""
+  },
+  {
+    "no": "09",
+    "name" : "O Eremita",
+    "src": "img/deck/09.svg",
+    "text": ""
+  },
+  {
+    "no": "10",
+    "name" : "A Roda da Fortuna",
+    "src": "img/deck/10.svg",
+    "text": ""
+  },
+  {
+    "no": "11",
+    "name" : "A Justiça",
+    "src": "img/deck/11.svg",
+    "text": ""
+  },
+  {
+    "no": "12",
+    "name" : "O Pendurado",
+    "src": "img/deck/12.svg",
+    "text": ""
+  },
+  {
+    "no": "13",
+    "name" : "A Morte",
+    "src": "img/deck/13.svg",
+    "text": ""
+  },
+  {
+    "no": "14",
+    "name" : "A Temperança",
+    "src": "img/deck/14.svg",
+    "text": ""
+  },
+  {
+    "no": "15",
+    "name" : "O Diabo",
+    "src": "img/deck/15.svg",
+    "text": ""
+  },
+  {
+    "no": "16",
+    "name" : "A Torre",
+    "src": "img/deck/16.svg",
+    "text": ""
+  },
+  {
+    "no": "17",
+    "name" : "A Estrela",
+    "src": "img/deck/17.svg",
+    "text": ""
+  },
+  {
+    "no": "18",
+    "name" : "A Lua",
+    "src": "img/deck/18.svg",
+    "text": ""
+  },
+  {
+    "no": "19",
+    "name" : "O Sol",
+    "src": "img/deck/19.svg",
+    "text": ""
+  },
+  {
+    "no": "20",
+    "name" : "O Julgamento",
+    "src": "img/deck/20.svg",
+    "text": ""
+  },
+  {
+    "no": "21",
+    "name" : "O Mundo",
+    "src": "img/deck/21.svg",
+    "text": ""
+  },
+  {
+    "no": "22",
+    "name" : "Ás de Paus",
+    "src": "img/deck/22.svg",
+    "text": ""
+  },
+  {
+    "no": "23",
+    "name" : "Dois de Paus",
+    "src": "img/deck/23.svg",
+    "text": ""
+  },
+  {
+    "no": "24",
+    "name" : "Três de Paus",
+    "src": "img/deck/24.svg",
+    "text": ""
+  },
+  {
+    "no": "25",
+    "name" : "Quatro de Paus",
+    "src": "img/deck/25.svg",
+    "text": ""
+  },
+  {
+    "no": "26",
+    "name" : "Cinco de Paus",
+    "src": "img/deck/26.svg",
+    "text": ""
+  },
+  {
+    "no": "27",
+    "name" : "Seis de Paus",
+    "src": "img/deck/27.svg",
+    "text": ""
+  },
+  {
+    "no": "28",
+    "name" : "Sete de Paus",
+    "src": "img/deck/28.svg",
+    "text": ""
+  },
+  {
+    "no": "29",
+    "name" : "Oito de Paus",
+    "src": "img/deck/29.svg",
+    "text": ""
+  },
+  {
+    "no": "30",
+    "name" : "Nove de Paus",
+    "src": "img/deck/30.svg",
+    "text": ""
+  },
+  {
+    "no": "31",
+    "name" : "Dez de Paus",
+    "src": "img/deck/31.svg",
+    "text": ""
+  },
+  {
+    "no": "32",
+    "name" : "Princesa de Paus",
+    "src": "img/deck/32.svg",
+    "text": ""
+  },
+  {
+    "no": "33",
+    "name" : "Príncipe de Paus",
+    "src": "img/deck/33.svg",
+    "text": ""
+  },
+  {
+    "no": "34",
+    "name" : "Rainha de Paus",
+    "src": "img/deck/34.svg",
+    "text": ""
+  },
+  {
+    "no": "35",
+    "name" : "Rei de Paus",
+    "src": "img/deck/35.svg",
+    "text": ""
+  },
+  {
+    "no": "36",
+    "name" : "Ás de Copas",
+    "src": "img/deck/36.svg",
+    "text": ""
+  },
+  {
+    "no": "37",
+    "name" : "Dois de Copas",
+    "src": "img/deck/37.svg",
+    "text": ""
+  },
+  {
+    "no": "38",
+    "name" : "Três de Copas",
+    "src": "img/deck/38.svg",
+    "text": ""
+  },
+  {
+    "no": "39",
+    "name" : "Quatro de Copas",
+    "src": "img/deck/39.svg",
+    "text": ""
+  },
+  {
+    "no": "40",
+    "name" : "Cinco de Copas",
+    "src": "img/deck/40.svg",
+    "text": ""
+  },
+  {
+    "no": "41",
+    "name" : "Seis de Copas",
+    "src": "img/deck/41.svg",
+    "text": ""
+  },
+  {
+    "no": "42",
+    "name" : "Sete de Copas",
+    "src": "img/deck/42.svg",
+    "text": ""
+  },
+  {
+    "no": "43",
+    "name" : "Oito de Copas",
+    "src": "img/deck/43.svg",
+    "text": ""
+  },
+  {
+    "no": "44",
+    "name" : "Nove de Copas",
+    "src": "img/deck/44.svg",
+    "text": ""
+  },
+  {
+    "no": "45",
+    "name" : "Dez de Copas",
+    "src": "img/deck/45.svg",
+    "text": ""
+  },
+  {
+    "no": "46",
+    "name" : "Princesa de Copas",
+    "src": "img/deck/46.svg",
+    "text": ""
+  },
+  {
+    "no": "47",
+    "name" : "Príncipe de Copas",
+    "src": "img/deck/47.svg",
+    "text": ""
+  },
+  {
+    "no": "48",
+    "name" : "Rainha de Copas",
+    "src": "img/deck/48.svg",
+    "text": ""
+  },
+  {
+    "no": "49",
+    "name" : "Rei de Copas",
+    "src": "img/deck/49.svg",
+    "text": ""
+  },
+  {
+    "no": "50",
+    "name" : "Ás de Espadas",
+    "src": "img/deck/50.svg",
+    "text": ""
+  },
+  {
+    "no": "51",
+    "name" : "Dois de Espadas",
+    "src": "img/deck/51.svg",
+    "text": ""
+  },
+  {
+    "no": "52",
+    "name" : "Três de Espadas",
+    "src": "img/deck/52.svg",
+    "text": ""
+  },
+  {
+    "no": "53",
+    "name" : "Quatro de Espadas",
+    "src": "img/deck/53.svg",
+    "text": ""
+  },
+  {
+    "no": "54",
+    "name" : "Cinco de Espadas",
+    "src": "img/deck/54.svg",
+    "text": ""
+  },
+  {
+    "no": "55",
+    "name" : "Seis de Espadas",
+    "src": "img/deck/55.svg",
+    "text": ""
+  },
+  {
+    "no": "56",
+    "name" : "Sete de Espadas",
+    "src": "img/deck/56.svg",
+    "text": ""
+  },
+  {
+    "no": "57",
+    "name" : "Oito de Espadas",
+    "src": "img/deck/57.svg",
+    "text": ""
+  },
+  {
+    "no": "58",
+    "name" : "Nove de Espadas",
+    "src": "img/deck/58.svg",
+    "text": ""
+  },
+  {
+    "no": "59",
+    "name" : "Dez de Espadas",
+    "src": "img/deck/59.svg",
+    "text": ""
+  },
+  {
+    "no": "60",
+    "name" : "Princesa de Espadas",
+    "src": "img/deck/60.svg",
+    "text": ""
+  },
+  {
+    "no": "61",
+    "name" : "Príncipe de Espadas",
+    "src": "img/deck/61.svg",
+    "text": ""
+  },
+  {
+    "no": "62",
+    "name" : "Rainha de Espadas",
+    "src": "img/deck/62.svg",
+    "text": ""
+  },
+  {
+    "no": "63",
+    "name" : "Rei de Espadas",
+    "src": "img/deck/63.svg",
+    "text": ""
+  },
+  {
+    "no": "64",
+    "name" : "Ás de Ouros",
+    "src": "img/deck/64.svg",
+    "text": ""
+  },
+  {
+    "no": "65",
+    "name" : "Dois de Ouros",
+    "src": "img/deck/65.svg",
+    "text": ""
+  },
+  {
+    "no": "66",
+    "name" : "Três de Ouros",
+    "src": "img/deck/66.svg",
+    "text": ""
+  },
+  {
+    "no": "67",
+    "name" : "Quatro de Ouros",
+    "src": "img/deck/67.svg",
+    "text": ""
+  },
+  {
+    "no": "68",
+    "name" : "Cinco de Ouros",
+    "src": "img/deck/68.svg",
+    "text": ""
+  },
+  {
+    "no": "69",
+    "name" : "Seis de Ouros",
+    "src": "img/deck/69.svg",
+    "text": ""
+  },
+  {
+    "no": "70",
+    "name" : "Sete de Ouros",
+    "src": "img/deck/70.svg",
+    "text": ""
+  },
+  {
+    "no": "71",
+    "name" : "Oito de Ouros",
+    "src": "img/deck/71.svg",
+    "text": ""
+  },
+  {
+    "no": "72",
+    "name" : "Nove de Ouros",
+    "src": "img/deck/72.svg",
+    "text": ""
+  },
+  {
+    "no": "73",
+    "name" : "Dez de Ouros",
+    "src": "img/deck/73.svg",
+    "text": ""
+  },
+  {
+    "no": "74",
+    "name" : "Princesa de Ouros",
+    "src": "img/deck/74.svg",
+    "text": ""
+  },
+  {
+    "no": "75",
+    "name" : "Príncipe de Ouros",
+    "src": "img/deck/75.svg",
+    "text": ""
+  },
+  {
+    "no": "76",
+    "name" : "Rainha de Ouros",
+    "src": "img/deck/76.svg",
+    "text": ""
+  },
+  {
+    "no": "77",
+    "name" : "Rei de Ouros",
+    "src": "img/deck/77.svg",
+    "text": ""
+  }
+]

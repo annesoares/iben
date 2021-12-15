@@ -1,9 +1,8 @@
 function cardPicker(random) {
-    if (random < 10) {
-        random = "0" + random;
-    }
-    var src = "img/deck/" + random + ".svg";
-    $("#card-result-img").attr("src", src);
+    $.getJSON("deck-info.json", function(deck) {
+        $("#card-result-img").attr("src", deck[random].src);
+        $("#card-result-text").innerHTML(deck[random].text);
+    });
 }
 
 $("#pick-a-card").click(function() {
