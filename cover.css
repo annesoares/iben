@@ -92,6 +92,7 @@ body {
 #eu {
   background-image: url("img/profile-back.jpg");
   position: relative;
+  background-attachment: fixed;
 }
 #eu::before {
   content: " ";
@@ -102,7 +103,7 @@ body {
 }
 
 .profile-img {
-  transform: rotateZ(-7deg);
+  transform: rotateZ(3deg);
   position: relative;
 }
 .profile-img::before {
@@ -110,10 +111,16 @@ body {
   position: absolute;
   left: 0; right: 0;
   top: 0; bottom: 0;
-  background: #EAF5F4;
-  transform: rotateZ(-3deg);
+  background: #bbb3df url("img/pattern.png");
+  background-size: cover;
+  transform: rotateZ(-7deg);
   z-index: -1;
   border-radius: 1em;
+}
+
+#certificados img {
+  border: 5px solid #DED69B;
+  border-radius: 5px;
 }
 
 /*
@@ -190,10 +197,15 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-  .contato-heading {
-    transform: rotate(-90deg) translate(-50%, 100%);
+  .certs-heading {
+    writing-mode: vertical-lr;
   }
   .disclaimers-heading {
-    transform: rotate(90deg) translate(50%)
+    writing-mode: vertical-rl;
+  }
+  .contato-heading {
+    writing-mode: vertical-rl;
+    transform: rotateZ(180deg);
+    margin: auto 0;
   }
 }
