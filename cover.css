@@ -131,6 +131,7 @@ body {
   padding-bottom: 10vh;
   background-color: #EAF5F4;
   position: relative;
+  z-index: -2;
 }
 #valores::before {
   content: " ";
@@ -140,6 +141,7 @@ body {
   background: url("img/pattern.png");
   background-size: cover;
   clip-path:  circle(50% at 100% 50%);
+  z-index: -1;
 }
 
 .pricing-header {
