@@ -18,6 +18,7 @@ body {
   color: #4F433D !important;
   background: url(img/waves.svg) no-repeat;
   background-size: cover;
+  background-attachment:fixed;
 }
 
 .cover-bg {
