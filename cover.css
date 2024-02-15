@@ -171,6 +171,17 @@ body {
   transform: skewY(-2deg);
 }
 
+
+/*
+ * Disclaimers
+ */
+
+@media screen and (min-width: 992px) {
+  .disclaimers-heading {
+    writing-mode: vertical-rl;
+  }
+}
+
 /*
  * Contact
  */
@@ -200,9 +211,6 @@ body {
 @media screen and (min-width: 768px) {
   .certs-heading {
     writing-mode: vertical-lr;
-  }
-  .disclaimers-heading {
-    writing-mode: vertical-rl;
   }
   .contato-heading {
     writing-mode: vertical-rl;
